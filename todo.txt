@@ -1,0 +1,24 @@
+To do list
+
+- change drawing so that each tile is drawn to a main image, which is then drawn to the screen instead of drawing each tile every time the screen updates. This will speed things up.
+
+- changing above will allow for drawing with mouse, currently implemented (but not working) with right click
+
+- set up an editor to design maps with
+
+- design algorithm to design maps on the fly so that mountains and water are symmetric
+
+- develop menu system for changing built in functions
+
+- bug #0001: check why increasing gridSize to bigger than init value causes crash
+
+- develop better algorithm for choosing tiles by number instead of if/elseif. Switch case doesn't exist in lua, might have to use tables or functions or something
+
+- bug #0002: check why the underground isn't drawing
+
+- set up a simple minimap on the side that simply displays the grid number in a table, or in a separate window
+
+- change random algorithm generator to have probabilities of being next to types of tiles to better tile placement.
+
+- bug #0003: trees not drawing to main canvas
+
